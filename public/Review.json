@@ -1,0 +1,37 @@
+[
+  {
+    "image": "/assets/user1.jpeg",
+    "title": "Easy to Use & Rewarding",
+    "description": "I never thought remote-tasking could be this smooth. RemoteEarn made it simple, and I got paid within days!",
+    "name": "Sara Ahmed",
+    "job": "Freelance Designer"
+  },
+  {
+    "image": "/assets/user2.jpg",
+    "title": "Perfect Side Hustle",
+    "description": "As a student, I needed something flexible. This platform helped me earn in my free time without stress.",
+    "name": "Ayan Chowdhury",
+    "job": "Computer Science Student"
+  },
+  {
+    "image": "/assets/user3.png",
+    "title": "Reliable Workers Every Time",
+    "description": "I posted a survey task and within hours got real results. Best part? Every submission was reviewed and legit.",
+    "name": "Jessica Lin",
+    "job": "Marketing Manager"
+  },
+  {
+    "image": "/assets/user4.jpg",
+    "title": "Intuitive Dashboard",
+    "description": "The admin panel is easy to use and helps me track users, payments, and reports without a headache.",
+    "name": "Imran Hossain",
+    "job": "Platform Admin"
+  },
+  {
+    "image": "/assets/user5.jpg",
+    "title": "Earned $50 in My First Week",
+    "description": "Seriously. Just by doing small tasks while commuting. Best remote-job platform I’ve used so far.",
+    "name": "Jonathan Smith",
+    "job": "Part-time Worker"
+  }
+]
