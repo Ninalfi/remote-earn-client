@@ -35,7 +35,7 @@ const AuthProvider = ({children}) => {
         try {
           const idToken = await cuser.getIdToken(); 
           setToken(idToken);
-          const res = await axios.get(`https://remotejobs-server.vercel.app/users?email=${cuser.email}`);
+          const res = await axios.get(`http://localhost:5000/users?email=${cuser.email}`);
           setUser(res.data);
         } catch {
           setUser(null);

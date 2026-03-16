@@ -3,7 +3,7 @@ import { useContext, useEffect } from "react";
 import { AuthContext } from "../../Context/AuthContext";
 import { useNavigate } from "react-router"; 
 const axiosSecure = axios.create({
-  baseURL: "https://remotejobs-server.vercel.app",
+  baseURL: "http://localhost:5000",
 });
 
 const useAxiosSecure = () => {

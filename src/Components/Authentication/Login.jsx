@@ -18,7 +18,7 @@ const {signin,user,setUser,setLoad}=use(AuthContext)
   signin(email, password)
   .then(async (res) => {
     const idToken = await res.user.getIdToken();
-    const res1 = await axios.get(`https://remotejobs-server.vercel.app/users?email=${res.user?.email}`, {
+    const res1 = await axios.get(`http://localhost:5000/users?email=${res.user?.email}`, {
       headers: { Authorization: `Bearer ${idToken}` },
     });
 
