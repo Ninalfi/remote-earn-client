@@ -22,7 +22,7 @@ const {signin,user,setUser,setLoad}=use(AuthContext)
       headers: { Authorization: `Bearer ${idToken}` },
     });
 
-    const userInfo = res1.data; // ✅ use directly here
+    const userInfo = res1.data; 
 
     setUser(userInfo); // still set it for global use
     setLoad(false);

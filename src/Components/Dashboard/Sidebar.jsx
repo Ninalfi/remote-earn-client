@@ -6,6 +6,7 @@ import { IoBriefcaseOutline, IoHomeOutline } from 'react-icons/io5';
 import { LuClipboardList, LuListRestart } from 'react-icons/lu';
 import { MdOutlinePlaylistAddCheck } from 'react-icons/md';
 import { PiHandWithdraw } from 'react-icons/pi';
+import { VscSendToRemoteAgent } from "react-icons/vsc";
 import { IoMdClose } from 'react-icons/io';
 import { AuthContext } from '../../Context/AuthContext';
 import { LuCircleUserRound } from "react-icons/lu";
@@ -45,7 +46,7 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
                 <div className="p-4">
                 <Link to="/">
           <div className="flex items-center gap-2 text-2xl font-bold pb-5">
-            <img src="/logo.png" alt="RemoteEarn Logo" className="w-10 h-10" />
+            <VscSendToRemoteAgent />
             <span>RemoteEarn</span>
           </div>
         </Link>
